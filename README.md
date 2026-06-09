@@ -16,6 +16,5 @@ I am currently strengthening my skills in applied AI, machine learning, data sci
 - Working with embeddings and RAG systems
 - Improving SQL and data analysis skills
 - Learning cloud and MLOps fundamentals
-- Developing cleaner GitHub repositories and technical documentation
 
 I am actively seeking internship opportunities in AI, data science, machine learning, software engineering, or data analytics.
