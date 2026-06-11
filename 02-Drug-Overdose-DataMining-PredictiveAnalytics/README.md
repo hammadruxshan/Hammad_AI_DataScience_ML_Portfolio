@@ -139,9 +139,71 @@ Improve interpretability using SHAP or feature importance analysis.
 Deploy the analysis as a Streamlit dashboard or web-based public health analytics tool.
 
 ## How to Run
+
+This project is implemented as a Jupyter Notebook.
+
+
+### 1. Install Required Libraries
+
+```bash
 pip install -r requirements.txt
-python main.py
+```
 
-If using notebooks:
+### 2. Add the Dataset
 
-jupyter notebook drug_overdose_data_mining.ipynb
+Place the raw dataset file inside this project folder with the following exact name:
+
+```text
+Accidental_Drug_Related_Deaths.csv
+```
+
+The notebook expects this file name when loading the dataset:
+
+```python
+df = pd.read_csv('Accidental_Drug_Related_Deaths.csv')
+```
+
+### 3. Open the Notebook
+
+```bash
+jupyter notebook DataMining_Codes.ipynb
+```
+
+Alternatively, the notebook can be opened and run using Google Colab.
+
+### 4. Run the Notebook
+
+Run all cells from top to bottom. The notebook will:
+
+* Load the accidental drug-related deaths dataset
+* Clean and standardise columns such as race, sex, ethnicity, location, and date
+* Convert drug indicator columns into binary values
+* Extract temporal and geographic features
+* Create and export a cleaned dataset named `Cleaned_Group_Dataset.csv`
+* Build classification models using Random Forest and Support Vector Machine
+* Apply regression models for substance trend analysis
+* Apply K-Means and DBSCAN for geographic clustering
+* Apply Isolation Forest and Local Outlier Factor for anomaly detection
+* Generate model evaluation outputs and visualisations
+
+### 5. Generated Output Files
+
+The notebook may generate files such as:
+
+```text
+Cleaned_Group_Dataset.csv
+classification_confusion_matrices.png
+regression_comparison.png
+clustering_optimal_k.png
+clustering_comparison.png
+roc_curve_comparison.png
+anomaly_score_distributions.png
+viz_yearly_trends.png
+viz_demographics.png
+viz_feature_importance.png
+viz_drug_heatmap.png
+viz_geographic_clusters.png
+viz_anomalies.png
+```
+
+
