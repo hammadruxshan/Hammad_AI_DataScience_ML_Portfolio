@@ -101,8 +101,6 @@ Add final accuracy, AUC, RMSE, clustering score, anomaly plots, or strongest mod
 
 ## Screenshots / Visualisations
 
-Suggested visuals to add:
-
 Confusion matrix comparison
 ROC curve
 Regression trend graph
