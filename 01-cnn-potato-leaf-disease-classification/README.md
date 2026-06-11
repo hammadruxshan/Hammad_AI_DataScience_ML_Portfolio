@@ -77,8 +77,6 @@ Add final test accuracy, F1-score, and confusion matrix screenshot here if avail
 
 ## Screenshots / Visualisations
 
-Suggested visuals to add:
-
 Sample potato leaf images from each class
 CNN architecture diagram
 Training vs validation accuracy graph
@@ -110,9 +108,44 @@ Add Grad-CAM visualisation to show which parts of the leaf influenced the predic
 Test the model on real-world images captured from farms or mobile phones.
 
 ## How to Run
+
+This project is implemented as a Jupyter Notebook.
+
+
+### 1. Install Required Libraries
+
+```bash
 pip install -r requirements.txt
-python main.py
+```
 
-If using a notebook:
+### 2. Open the Notebook
 
-jupyter notebook potato_leaf_disease_classification.ipynb
+```bash
+jupyter notebook leaf_classification.ipynb
+```
+
+Alternatively, the notebook can be opened and run using Google Colab or Kaggle Notebook.
+
+### 3. Dataset Access
+
+The notebook uses the Kaggle dataset:
+
+```python
+hafiznouman786/potato-plant-diseases-data
+```
+
+The dataset is downloaded in the notebook using `kagglehub`. If running locally, make sure your Kaggle access is configured properly. If running on Kaggle or Google Colab, the notebook can be executed cell by cell after installing the required dependencies.
+
+### 4. Run the Notebook
+
+Run all cells from top to bottom. The notebook will:
+
+* Import the required libraries
+* Download/load the potato plant disease dataset
+* Preprocess and resize the images
+* Split the dataset into training, validation, and test sets
+* Apply data augmentation and class weighting
+* Train a CNN model
+* Evaluate the model using accuracy, precision, recall, F1-score, and confusion matrix analysis
+* Display training history and model performance visualisations
+
