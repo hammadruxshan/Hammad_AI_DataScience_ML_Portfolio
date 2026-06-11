@@ -25,9 +25,9 @@ To identify limitations such as class imbalance, dataset size, and real-world ge
 
 The dataset used in this project was the Potato Plant Diseases Data dataset, publicly available on Kaggle. It contains RGB images of potato leaves labelled into three classes:
 
-Healthy leaves
-Early Blight
-Late Blight
+- Healthy leaves
+- Early Blight
+- Late Blight
 
 The images were in JPG format and resized to a consistent input dimension before being passed into the CNN model. The dataset had a class imbalance issue, with significantly fewer Healthy leaf images compared to the disease categories. This was considered during model training and evaluation.
 
@@ -51,16 +51,16 @@ The results were analysed to understand model strengths, weaknesses, misclassifi
 
 ## Technologies Used
 
-Python
-TensorFlow / Keras
-Convolutional Neural Networks
-NumPy
-Matplotlib
-Image preprocessing
-Data augmentation
-Classification metrics
-Confusion matrix analysis
-Google Colab / Jupyter Notebook
+- Python
+- TensorFlow / Keras
+- Convolutional Neural Networks
+- NumPy
+- Matplotlib
+- Image preprocessing
+- Data augmentation
+- Classification metrics
+- Confusion matrix analysis
+- Google Colab / Jupyter Notebook
 
 ## Results
 
@@ -68,12 +68,11 @@ The CNN model was able to classify potato leaf images into Healthy, Early Blight
 
 Key findings:
 
-The model learned visible disease patterns from potato leaf images.
-Data augmentation helped improve generalisation.
-Class imbalance affected the model’s ability to treat all classes equally.
-Accuracy alone was not sufficient, so additional metrics such as precision, recall, F1-score, and confusion matrix analysis were used.
+- The model learned visible disease patterns from potato leaf images.
+- Data augmentation helped improve generalisation.
+- Class imbalance affected the model’s ability to treat all classes equally.
+- Accuracy alone was not sufficient, so additional metrics such as precision, recall, F1-score, and confusion matrix analysis were used.
 
-Add final test accuracy, F1-score, and confusion matrix screenshot here if available.
 
 ## Screenshots / Visualisations
 
