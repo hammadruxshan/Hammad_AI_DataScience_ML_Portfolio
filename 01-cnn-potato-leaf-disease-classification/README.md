@@ -77,12 +77,7 @@ Add final test accuracy, F1-score, and confusion matrix screenshot here if avail
 
 ## Screenshots / Visualisations
 
-Sample potato leaf images from each class
-CNN architecture diagram
-Training vs validation accuracy graph
-Training vs validation loss graph
-Confusion matrix
-Prediction examples
+Sample potato leaf images from each class, CNN architecture diagram, Training vs validation accuracy graph, Training vs validation loss graph, Confusion matrix, Prediction examples
 
 ## Key Learnings
 Learned how CNNs are applied to real-world image classification problems.
