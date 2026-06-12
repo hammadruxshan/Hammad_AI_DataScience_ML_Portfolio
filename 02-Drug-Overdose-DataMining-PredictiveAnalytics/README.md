@@ -25,16 +25,7 @@ The dataset used in this project was an accidental drug-related deaths dataset f
 
 The dataset included information such as:
 
-Age
-Sex
-Race
-Ethnicity
-Residence location
-Injury location
-Death location
-Geographic coordinates
-Substance involvement columns
-Cause and manner of death
+Age, Sex, Race, Ethnicity, Residence location, Injury location, Death location, Geographic coordinates, Substance involvement columns, Cause and manner of death
 
 The dataset required preprocessing before modelling, including cleaning inconsistent values, standardising categories, handling missing data, transforming variables, extracting geographic coordinates, encoding categorical variables, and selecting relevant features.
 
@@ -101,15 +92,7 @@ Add final accuracy, AUC, RMSE, clustering score, anomaly plots, or strongest mod
 
 ## Screenshots / Visualisations
 
-Confusion matrix comparison
-ROC curve
-Regression trend graph
-K-Means cluster map
-DBSCAN cluster map
-Anomaly detection scatter plot
-Feature importance chart
-Drug co-occurrence heatmap
-Yearly overdose trend chart
+Confusion matrix comparison, ROC curve, Regression trend graph, K-Means cluster map, DBSCAN cluster map, Anomaly detection scatter plot, Feature importance chart, Drug co-occurrence heatmap, Yearly overdose trend chart
 
 ## Key Learnings
 Learned how different data mining techniques apply to different problem types.
