@@ -22,12 +22,12 @@ Existing food donation methods are often informal, relying on WhatsApp groups or
 ## Dataset / Input
 This project was developed as a product and platform concept rather than a data-heavy machine learning project. The main inputs were:
 
-1 - Problem research on food waste and food insecurity.
-2 - Identification of user groups, including donors, volunteers, NGOs, shelters, students, and B40 families.
-3 - Platform feature planning.
-4 - Business model and value proposition design.
-5 - SWOT analysis.
-6 - Cost structure and revenue stream planning.
+1. Problem research on food waste and food insecurity.
+2. Identification of user groups, including donors, volunteers, NGOs, shelters, students, and B40 families.
+3. Platform feature planning.
+4. Business model and value proposition design.
+5. SWOT analysis.
+6. Cost structure and revenue stream planning.
 
 Potential future datasets could include:
 
