@@ -13,24 +13,17 @@ Student academic performance is influenced by many factors, but institutions may
 This project addresses the need for a statistical model that can analyse student performance factors and provide evidence-based insights for improving academic support.
 
 ## Objectives
-To identify internal and external factors affecting student academic performance.
-To analyse relationships between student characteristics and exam scores using statistical testing.
-To apply Pearson correlation, t-tests, and ANOVA to test selected hypotheses.
-To build a multiple linear regression model for predicting student performance.
-To evaluate model reliability using R², Adjusted R², RMSE, and diagnostic plots.
-To generate data-driven recommendations for educational support.
+- To identify internal and external factors affecting student academic performance.
+- To analyse relationships between student characteristics and exam scores using statistical testing.
+- To apply Pearson correlation, t-tests, and ANOVA to test selected hypotheses.
+- To build a multiple linear regression model for predicting student performance.
+- To evaluate model reliability using R², Adjusted R², RMSE, and diagnostic plots.
+- To generate data-driven recommendations for educational support.
 
 ## Dataset / Input
 The dataset used in this project was a student academic performance dataset sourced from Kaggle. It included student-related variables such as:
 
-Study hours
-Motivation level
-Sleep patterns
-Parental involvement
-Internet access
-Technology usage
-Lifestyle factors
-Exam scores
+Study hours, Motivation level, Sleep patterns, Parental involvement, Internet access, Technology usage, Lifestyle factors, Exam scores
 
 The dataset was used to explore how behavioural, environmental, and technological factors influence academic performance.
 
@@ -78,18 +71,9 @@ Statistical tests helped determine whether observed differences were significant
 Multiple linear regression provided a structured way to estimate exam performance.
 Model evaluation using R², Adjusted R², and RMSE helped assess reliability.
 
-Add exact R², Adjusted R², RMSE, p-values, and final charts here if available.
-
 ## Screenshots / Visualisations
-Suggested visuals to add:
 
-Correlation heatmap
-Scatter plot for study hours vs exam score
-Boxplot for group comparisons
-ANOVA visualisation
-Regression diagnostic plots
-Actual vs predicted exam score graph
-Feature importance or coefficient table
+Correlation heatmap, Scatter plot for study hours vs exam score, Boxplot for group comparisons, ANOVA visualisation, Regression diagnostic plots, Actual vs predicted exam score graph, Feature importance or coefficient table
 
 ## Key Learnings
 Learned how to apply statistical testing to real-world educational data.
@@ -116,10 +100,3 @@ Use feature importance or SHAP analysis for better interpretability.
 Develop an early-warning system to identify students who may need academic support.
 Deploy a simple student performance prediction app using Streamlit.
 
-## How to Run
-pip install -r requirements.txt
-python main.py
-
-If using a notebook:
-
-jupyter notebook student_academic_performance_modelling.ipynb
