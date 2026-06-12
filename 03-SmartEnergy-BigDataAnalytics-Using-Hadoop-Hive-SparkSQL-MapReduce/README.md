@@ -14,13 +14,13 @@ Energy consumption data is generated continuously and can become difficult to pr
 This project addresses the need for a scalable big data solution that can process long-term hourly electricity demand data and generate useful insights for smart energy management.
 
 ## Objectives
--To analyse hourly electricity consumption data using big data technologies.
--To ingest and store the dataset using HDFS.
--To perform batch analytics using Hive.
--To perform faster analytical processing using Spark SQL.
--To implement Hadoop MapReduce for distributed aggregation.
--To compare tool performance across Hive, Spark SQL, and MapReduce.
--To interpret energy usage patterns and provide recommendations.
+- To analyse hourly electricity consumption data using big data technologies.
+- To ingest and store the dataset using HDFS.
+- To perform batch analytics using Hive.
+- To perform faster analytical processing using Spark SQL.
+- To implement Hadoop MapReduce for distributed aggregation.
+- To compare tool performance across Hive, Spark SQL, and MapReduce.
+- To interpret energy usage patterns and provide recommendations.
 
 ## Dataset / Input
 The dataset used in this project was the AEP_hourly.csv dataset from the Hourly Energy Consumption collection. It contained hourly electricity demand readings from American Electric Power.
