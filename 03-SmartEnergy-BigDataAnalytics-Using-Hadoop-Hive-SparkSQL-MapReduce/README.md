@@ -14,13 +14,13 @@ Energy consumption data is generated continuously and can become difficult to pr
 This project addresses the need for a scalable big data solution that can process long-term hourly electricity demand data and generate useful insights for smart energy management.
 
 ## Objectives
-To analyse hourly electricity consumption data using big data technologies.
-To ingest and store the dataset using HDFS.
-To perform batch analytics using Hive.
-To perform faster analytical processing using Spark SQL.
-To implement Hadoop MapReduce for distributed aggregation.
-To compare tool performance across Hive, Spark SQL, and MapReduce.
-To interpret energy usage patterns and provide recommendations.
+-To analyse hourly electricity consumption data using big data technologies.
+-To ingest and store the dataset using HDFS.
+-To perform batch analytics using Hive.
+-To perform faster analytical processing using Spark SQL.
+-To implement Hadoop MapReduce for distributed aggregation.
+-To compare tool performance across Hive, Spark SQL, and MapReduce.
+-To interpret energy usage patterns and provide recommendations.
 
 ## Dataset / Input
 The dataset used in this project was the AEP_hourly.csv dataset from the Hourly Energy Consumption collection. It contained hourly electricity demand readings from American Electric Power.
@@ -77,21 +77,9 @@ MapReduce demonstrated the fundamentals of distributed batch aggregation.
 Tool performance varied depending on workload type and processing design.
 Energy consumption analysis helped identify demand patterns and peak load behaviour.
 
-Add screenshots of Hive queries, Spark SQL output, MapReduce output, and performance comparison chart here.
-
 ## Screenshots / Visualisations
-
-Suggested visuals to add:
-
-HDFS file upload screenshot
-Hive table creation screenshot
-Hive query output
-Spark SQL query output
-MapReduce execution output
-Tool performance comparison chart
-Daily energy demand visualisation
-Peak hour analysis graph
-Weekday vs weekend energy pattern graph
+HDFS file upload screenshot, Hive table creation screenshot, Hive query output, Spark SQL query output
+MapReduce execution output, Tool performance comparison chart, Daily energy demand visualisation, Peak hour analysis graph, Weekday vs weekend energy pattern graph
 
 ## Key Learnings
 Learned how HDFS stores data across a distributed environment.
@@ -117,28 +105,3 @@ Extend the pipeline to support real-time data streams using Kafka or Spark Strea
 Improve partitioning by year, month, and day for faster time-range queries.
 Deploy the workflow in a cloud-based big data environment.
 
-## How to Run
-
-Example setup commands may vary depending on your Hadoop environment.
-
-hdfs dfs -mkdir /energy_data
-hdfs dfs -put AEP_hourly.csv /energy_data
-
-For Hive:
-
-CREATE TABLE energy_consumption (
-    datetime STRING,
-    AEP_MW INT
-)
-ROW FORMAT DELIMITED
-FIELDS TERMINATED BY ','
-STORED AS TEXTFILE;
-
-For Spark SQL:
-
-spark-submit energy_analysis.py
-
-For MapReduce:
-
-javac EnergyAggregation.java
-hadoop jar EnergyAggregation.jar EnergyAggregation /energy_data/AEP_hourly.csv /energy_output
