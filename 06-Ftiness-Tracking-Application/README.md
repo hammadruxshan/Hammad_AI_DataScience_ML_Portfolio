@@ -14,12 +14,12 @@ Many users want to improve their health and fitness but struggle to track their 
 This project addresses the need for a simple fitness tracking application that allows users to manage health data, set goals, log activities, and visualise progress in one system.
 
 ## Objectives
-To design a fitness tracking application that supports user profiles, goal setting, exercise logging, nutrition tracking, and progress monitoring.
-To define the system’s data attributes and methods using object-oriented principles.
-To create UML use case and class diagrams for system structure and user interactions.
-To design a user interface prototype for key user functions.
-To propose a suitable technology stack using JavaFX, Java, and local data storage.
-To improve understanding of software analysis, design, and application architecture.
+- To design a fitness tracking application that supports user profiles, goal setting, exercise logging, nutrition tracking, and progress monitoring.
+- To define the system’s data attributes and methods using object-oriented principles.
+- To create UML use case and class diagrams for system structure and user interactions.
+- To design a user interface prototype for key user functions.
+- To propose a suitable technology stack using JavaFX, Java, and local data storage.
+- To improve understanding of software analysis, design, and application architecture.
 ## Dataset / Input
 
 This project did not use an external dataset. Instead, it focused on application data design.
@@ -81,8 +81,6 @@ Data storage approach using local files and DAO pattern.
 Authentication and CRUD operation planning.
 ## Screenshots / Visualisations
 
-Suggested visuals to add:
-
 UML use case diagram
 UML class diagram
 UI prototype screenshots
@@ -92,7 +90,8 @@ Exercise logging page
 Nutrition tracking page
 Progress chart screen
 System architecture diagram
-Key Learnings
+
+## Key Learnings
 Learned how to design an application before implementation.
 Improved understanding of object-oriented design and UML modelling.
 Practised defining attributes, methods, and class relationships.
@@ -117,16 +116,4 @@ Convert the desktop app into a web or mobile app.
 Conduct user testing and improve UI/UX based on feedback.
 ## How to Run
 
-If implemented as a JavaFX application:
-
-javac Main.java
-java Main
-
-or using Maven:
-
-mvn clean install
-mvn javafx:run
-
-If this remains a design project:
-
-Open the README, UML diagrams, and UI prototype files.
+Open the Prototype.txt and click the link provided for prototype viewing.
