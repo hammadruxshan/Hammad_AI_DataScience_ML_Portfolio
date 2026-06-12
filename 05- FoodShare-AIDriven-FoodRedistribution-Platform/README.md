@@ -1,33 +1,33 @@
-#05 - FoodShare: AI-Driven Food Redistribution Platform
-##Abstract
+# 05 - FoodShare: AI-Driven Food Redistribution Platform
+## Abstract
 FoodShare is a product concept for a community-driven mobile and web platform designed to reduce food waste and improve access to meals for vulnerable communities. The project responds to the problem of edible food being discarded by restaurants, grocery stores, and individuals while low-income families, students, NGOs, and shelters continue to face food insecurity.
 
 The proposed solution connects food donors, volunteers, and beneficiaries through a structured digital platform. Donors can list surplus food in real time, beneficiaries and NGOs can request available food, and volunteers can help deliver donations through a crowd-delivery model. The platform also includes AI-powered matching between food supply and demand, verified user profiles, gamified participation through points and badges, and analytics for NGOs and businesses.
 
 This project demonstrates product thinking, social impact design, AI-enabled platform ideation, user-centred problem solving, and business model development. Although it is not a fully implemented software project, it shows the ability to identify a real-world problem, design a technology-enabled solution, define key users, outline value propositions, and consider operational, social, and sustainability impact.
 
-##Problem Statement
+## Problem Statement
 Large amounts of edible food are wasted daily by restaurants, grocery stores, and individuals due to storage limits, expiry concerns, and poor redistribution systems. At the same time, B40 families, shelters, NGOs, and students may struggle to access affordable meals.
 
 Existing food donation methods are often informal, relying on WhatsApp groups or manual coordination. This creates delays, lack of transparency, inefficient volunteer management, and difficulty matching surplus food with real demand.
 
 ## Objectives
-To design a digital platform that connects food donors, volunteers, NGOs, shelters, students, and low-income families.
-To reduce food waste by enabling real-time surplus food listings.
-To improve food redistribution efficiency using AI-powered matching.
-To create a transparent and community-driven donation system.
-To encourage participation through gamification, rewards, and community engagement.
-To provide analytics for NGOs and businesses to track donations and impact.
+- To design a digital platform that connects food donors, volunteers, NGOs, shelters, students, and low-income families.
+- To reduce food waste by enabling real-time surplus food listings.
+- To improve food redistribution efficiency using AI-powered matching.
+- To create a transparent and community-driven donation system.
+- To encourage participation through gamification, rewards, and community engagement.
+- To provide analytics for NGOs and businesses to track donations and impact.
 
 ## Dataset / Input
 This project was developed as a product and platform concept rather than a data-heavy machine learning project. The main inputs were:
 
-Problem research on food waste and food insecurity.
-Identification of user groups, including donors, volunteers, NGOs, shelters, students, and B40 families.
-Platform feature planning.
-Business model and value proposition design.
-SWOT analysis.
-Cost structure and revenue stream planning.
+1- Problem research on food waste and food insecurity.
+2- Identification of user groups, including donors, volunteers, NGOs, shelters, students, and B40 families.
+3- Platform feature planning.
+4- Business model and value proposition design.
+5- SWOT analysis.
+6- Cost structure and revenue stream planning.
 
 Potential future datasets could include:
 
@@ -82,16 +82,7 @@ Defined user groups and social impact goals.
 Business and revenue model considerations.
 
 ## Screenshots / Visualisations
-Suggested visuals to add:
-
-FoodShare pitch deck screenshots
-App navigation flow
-User journey diagram
-Donor-to-volunteer-to-beneficiary workflow
-SWOT analysis slide
-Business model canvas
-Platform feature overview
-Mission and vision slide
+App navigation flow, User journey diagram, Donor-to-volunteer-to-beneficiary workflow, SWOT analysis, Business model canvas, Platform feature overview, Mission and vision 
 
 ## Key Learnings
 Learned how to translate a social problem into a technology-enabled product concept.
@@ -119,20 +110,6 @@ Explore AI-based demand prediction and route optimisation.
 
 ## How to Run
 
-This is currently a product concept and pitch deck project rather than an executable software application.
-
 To view the project:
 
-Open the FoodShare presentation deck or README documentation.
-
-Future implementation could include:
-
-npm install
-npm run dev
-
-or
-
-pip install -r requirements.txt
-python app.py
-
-if developed as a web application.
+Open the Prototype.txt and click on the available link.
